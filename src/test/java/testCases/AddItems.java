@@ -1,6 +1,11 @@
+/*
+ * Author: Enoch Mahesh Silva
+ * Date: March 14, 2023
+ * Description: This code is created to learn Selenium Automation Tests with Java
+ */
+
 package testCases;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;

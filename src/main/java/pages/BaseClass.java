@@ -1,5 +1,10 @@
-package pages;
+/*
+ * Author: Enoch Mahesh Silva
+ * Date: March 14, 2023
+ * Description: This code is created to learn Selenium Automation Tests with Java
+ */
 
+package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
