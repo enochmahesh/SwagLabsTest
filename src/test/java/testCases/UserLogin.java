@@ -6,6 +6,8 @@
 
 package testCases;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.BaseClass;
@@ -13,6 +15,7 @@ import pages.InventoryPage;
 
 public class UserLogin extends BaseClass {
 
+    ExtentTest test = extent.createTest("Login Test", "Testing the login of the user");
 
     @BeforeTest
     public void setDriver() {
@@ -21,18 +24,24 @@ public class UserLogin extends BaseClass {
 
     @Test
     public void login(){
-    userLogin();
+        test.log(Status.INFO,"User Is Navigated to home screen");
+        userLogin();
+        test.log(Status.INFO,"User have entered the credentials and clicked the sign in button.");
+        extent.flush();
     }
 
     @Test
     public void verifyLogin() {
+
         InventoryPage ele = new InventoryPage(driver);
         Assert.assertEquals(ele.isHeadertext(), "Swag Labs");
         Assert.assertEquals(ele.isSubText(), "Products");
+        test.log(Status.PASS,"Test is PASS");
+        extent.flush();
     }
-   @AfterSuite
+   @AfterTest
     public void closeDriver() {
-    tearDown();
-    }
+        tearDown();
+            }
 }
 
