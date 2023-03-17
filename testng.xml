@@ -1,12 +1,13 @@
 <suite name="Testing Swag Labs Web Application">
     <listeners>
-        <listener class-name="org.testng.reporters.EmailableReporter"/>
         <listener class-name="pages.SuiteSetUp"/>
+        <listener class-name="utils.TestListener"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
     </listeners>
     <test name="Smoke Test Suite">
     <classes>
-            <class name="testCases.UserLogin"/>
-            <class name="testCases.AddItems"/>
-        </classes>
+        <class name="testCases.UserLogin"/>
+        <class name="testCases.AddItems"/>
+      </classes>
     </test>
     </suite>
