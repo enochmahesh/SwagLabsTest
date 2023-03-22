@@ -7,7 +7,6 @@
 package pages;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,7 +15,6 @@ public class BaseClass extends SuiteSetUp{
 
     public static ExtentTest logger;
     public static ExtentReports report;
-
     public WebDriver driver;
     public void setUpDriver() {
         System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
@@ -27,7 +25,6 @@ public class BaseClass extends SuiteSetUp{
         driver.get("https://www.saucedemo.com/");
 
     }
-
     public void userLogin(){
         LoginPage login=new LoginPage(driver);
         login.setUsername("standard_user");
