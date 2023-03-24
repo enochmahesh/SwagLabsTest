@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-24T23:18:32 IST" name="Surefire suite" finished-at="2023-03-24T23:18:32 IST" duration-ms="5">
+  <suite started-at="2023-03-24T23:26:36 IST" name="Surefire suite" finished-at="2023-03-24T23:26:36 IST" duration-ms="6">
     <groups>
     </groups>
-    <test started-at="2023-03-24T23:18:32 IST" name="Surefire test" finished-at="2023-03-24T23:18:32 IST" duration-ms="5">
+    <test started-at="2023-03-24T23:26:36 IST" name="Surefire test" finished-at="2023-03-24T23:26:36 IST" duration-ms="6">
       <class name="utils.TestListener">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:utils.TestListener@557caf28]" started-at="2023-03-24T23:18:31 IST" name="suiteSetUp" finished-at="2023-03-24T23:18:32 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:utils.TestListener@557caf28]" started-at="2023-03-24T23:26:36 IST" name="suiteSetUp" finished-at="2023-03-24T23:26:36 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utils.TestListener@557caf28]" started-at="2023-03-24T23:18:32 IST" name="afterSuite" finished-at="2023-03-24T23:18:32 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utils.TestListener@557caf28]" started-at="2023-03-24T23:26:36 IST" name="afterSuite" finished-at="2023-03-24T23:26:36 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
