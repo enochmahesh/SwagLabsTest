@@ -2,3 +2,4 @@
 test-output/
 drivers/
 credentials.xlsx/
+target/surefire-reports/
