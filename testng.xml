@@ -2,8 +2,6 @@
     <listeners>
         <listener class-name="pages.SuiteSetUp"/>
         <listener class-name="org.testng.reporters.EmailableReporter"/>
-        <listener class-name="utils.TestListener"/>
-
     </listeners>
     <test name="Smoke Test Suite">
     <classes>
